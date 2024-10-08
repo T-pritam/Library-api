@@ -1,0 +1,52 @@
+const books = [
+  {
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    description: "A classic novel set in the Jazz Age, chronicling the life and tragic romance of Jay Gatsby, a mysterious millionaire, and his obsession with Daisy Buchanan."
+  },
+  {
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    description: "A powerful exploration of racial injustice in the American South, told through the eyes of young Scout Finch, as her father, Atticus, defends a black man wrongly accused of rape."
+  },
+  {
+    title: "1984",
+    author: "George Orwell",
+    description: "A dystopian novel depicting a totalitarian society under constant surveillance, where independent thought is suppressed. It follows the story of Winston Smith, who begins to rebel against the system."
+  },
+  {
+    title: "Pride and Prejudice",
+    author: "Jane Austen",
+    description: "This beloved romantic novel follows Elizabeth Bennet, a sharp-witted young woman, as she navigates issues of class, family, and misunderstandings in her relationship with the enigmatic Mr. Darcy."
+  },
+  {
+    title: "The Catcher in the Rye",
+    author: "J.D. Salinger",
+    description: "A coming-of-age story that captures the struggles of teenage alienation and rebellion, as told by Holden Caulfield, a young man disenchanted with society's expectations and superficiality."
+  },
+  {
+    title: "Moby-Dick",
+    author: "Herman Melville",
+    description: "A thrilling tale of obsession and revenge, this novel follows Captain Ahab’s relentless pursuit of the elusive white whale, Moby Dick, and the impact on his crew."
+  },
+  {
+    title: "The Hobbit",
+    author: "J.R.R. Tolkien",
+    description: "The prelude to The Lord of the Rings, this adventure novel tells the story of Bilbo Baggins, a reluctant hobbit who embarks on a quest to reclaim a lost kingdom and encounters danger, friendship, and treasure."
+  },
+  {
+    title: "Brave New World",
+    author: "Aldous Huxley",
+    description: "Set in a futuristic world where societal control is maintained through pleasure, technology, and conditioning, the novel follows characters who begin to question the meaning of happiness and freedom."
+  },
+  {
+    title: "Frankenstein",
+    author: "Mary Shelley",
+    description: "Often considered the first science fiction novel, it tells the story of Victor Frankenstein, a scientist who creates a living being, only to be horrified by his own creation and its consequences."
+  },
+  {
+    title: "Crime and Punishment",
+    author: "Fyodor Dostoevsky",
+    description: "This Russian classic delves into the mind of Raskolnikov, a young man who believes he’s above moral law, and follows his psychological turmoil after committing a murder."
+  }
+];
