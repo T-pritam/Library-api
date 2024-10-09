@@ -6,7 +6,7 @@ const bookRoutes = require('./routes/books');
 const borrowRoutes = require('./routes/borrow');
 const cors = require('cors');
 
-dotenv.config();
+require('dotenv').config();
 
 const app = express();
 app.use(cors());
@@ -22,7 +22,7 @@ app.get('/',(req,res) =>{
 
 const PORT = process.env.PORT || 5000;
 
-mongoose.connect(process.env.MONGO_URI).then(() => {
+mongoose.connect("mongodb+srv://pritamrao37:pritamrao37@cluster0.7f1pqc4.mongodb.net/Library?retryWrites=true&w=majority&appName=Cluster0").then(() => {
   app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
   });

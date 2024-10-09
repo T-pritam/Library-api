@@ -50,7 +50,7 @@ exports.login = async (req, res) => {
 };
 
 exports.getAll = async (req, res) => {
-  const users = await User.find({$where: function() { return this.role === 'MEMBER' }}).select('-password');
+  const users = await User.find({ role: "MEMBER"}).select('-password');
   res.status(200).json(users);
 };
 
