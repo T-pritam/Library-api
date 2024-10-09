@@ -57,6 +57,7 @@ exports.getAll = async (req, res) => {
 exports.deleteUser = async (req, res) => {
   const { id } = req.params;
   const user = await User.findByIdAndUpdate(id, { isActive: false });
+  if (!user) return res.status(404).json({ message: 'User not found' });
   await user.save();
   res.status(200).json({ message: 'User deleted successfully' });
 };
@@ -64,6 +65,7 @@ exports.deleteUser = async (req, res) => {
 exports.deleteUserAdmin = async (req, res) => {
   const { id } = req.params;
   const user = await User.findByIdAndDelete(id);
+  if (!user) return res.status(404).json({ message: 'User not found' });
   res.status(200).json({ message: 'User deleted successfully' });
 };
 
