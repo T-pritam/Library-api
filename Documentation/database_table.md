@@ -2,6 +2,7 @@
 
 ## Database Schema Visualization
 You can view the database schema for this system [here](https://drawsql.app/teams/jarvis-10/diagrams/library-management-system).
+<img width="960" alt="db" src="https://github.com/user-attachments/assets/34b02298-c9f0-49f9-b1b5-88818d530582">
 
 ## 1. Book Schema
 ### Fields:
